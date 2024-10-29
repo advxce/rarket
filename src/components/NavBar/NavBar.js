@@ -56,7 +56,7 @@ function NavBar() {
 
     return (
         <div className='main--navbar'>
-            <Link to='/products' className='products--nav'>Продукты</Link>
+            <Link to='/' className='products--nav'>Продукты</Link>
             <Link to='/contacts'>Контакты</Link>
 
             <Link to='/about' className='products--nav'>О Сайте</Link>
