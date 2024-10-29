@@ -1,0 +1,72 @@
+.product--card{
+    font-family: "Playwrite DE Grund", cursive;
+
+    margin: 20px;
+    display: flex;
+    width: 27vw;
+    height: 29vw;
+    background: rgba(218, 218, 218, 0.23);
+    flex-direction: column;
+    border-radius: 10%;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.container--btn--product{
+    width: 140px;
+    padding: 5px;
+    border-radius: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: rgba(214, 214, 214, 0.01);
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    ;
+}
+
+.cost--btn{
+    padding: 0 35px;
+}
+
+.def{
+    justify-content: center;
+    font-size: 0.8em;
+}
+
+.gen{
+    justify-content: space-around;
+}
+
+img {
+    position: relative;
+    max-width: 150px;
+    height: 150px;
+
+    margin-right: 30px;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    border-radius: 50%;
+}
+
+.products--card{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.content--card{
+    display: flex;
+    margin: 15px;
+}
+
+.column--card{
+
+}
+
+.txt--card{
+    margin: 5px 15px 15px 15px;
+    text-align: justify;
+}
